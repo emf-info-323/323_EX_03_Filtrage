@@ -1,6 +1,6 @@
 <h1><code>Module 323</code> - Programmer de manière fonctionnelle</h1>
 
-# 😅 Exercice 03
+# 😅 Exercice 03 - Filtrage de liste
 
 ## 🕒 Durée
 
