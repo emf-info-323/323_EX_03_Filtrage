@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 3 - Comprendre filter()</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+        }
+
+        button {
+            margin: 0.2em;
+            padding: 0.5em 0.5em;
+            font-size: 1em;
+        }
+
+        #output {
+            margin-top: 2em;
+            padding: 1em;
+            font-family: 'Consolas', 'Courier New', Courier, monospace;
+            font-size: 1em;
+            font-weight: normal;
+            border: 1px solid #ccc;
+            min-height: 2em;
+            background: #fafafa;
+            color: darkgreen;
+        }
+
+        code {
+            color: darkred;
+        }
+    </style>
+    <script src="ex03-data-villes.js"></script>
+    <script src="ex03-data-motos.js"></script>
+    <script src="ex03-data-evaluations.js"></script>
+    <script src="ex03.js"></script>
+</head>
+
+<body>
+    <h1>Exercice 3 - Comprendre <code>filter()</code></h1>
+    <p>
+        <button id="idActionF1">F1 - Marques qui débutent par un H</button>
+        <button id="idActionF2">F2 - Villes du canton 'FR' avec entre 10000 et 25000 habitants</button>
+        <button id="idActionF3">F3 - Marques ayant sorti un modèle de moto en 2021</button>
+        <button id="idActionF4">F4 - Évaluations de 'Maths' de 'Mac HARONI' avec une note de 5.0 ou plus</button>
+        <button id="idActionF5">F5 - Évaluations du mois d'avril avec une note inférieure à 3.0</button>
+    </p>
+
+    <pre id="output"></pre>
+</body>
+
+</html>
