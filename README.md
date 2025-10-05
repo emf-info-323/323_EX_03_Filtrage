@@ -1,6 +1,6 @@
 <h1><code>Module 323</code> - Programmer de manière fonctionnelle</h1>
 
-# 😅 Exercice 03 - Comprendre filter() / Solution
+# 😅 Exercice 03 - Comprendre filter()
 
 ## Objectifs
 
